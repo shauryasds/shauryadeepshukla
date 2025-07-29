@@ -8,9 +8,9 @@ const Projects = () => {
       title: 'FounderAI',
       description: 'Full-stack GenAI web app that analyzes startup ideas in real time using Google Search, SerpAPI, and Gemini LLMs to check uniqueness, market saturation, and monetization potential.',
       tech: ['Next.js', 'Docker', 'Gemini API', 'Supabase', 'LangChain'],
-      github: 'https://github.com/shauryasds/HireAi',
-      live: 'http://hire-ai-azure.vercel.app',
-      image: 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=800',
+      github: 'https://github.com/shauryasds/founderai',
+      live: 'https://founderai-seven.vercel.app',
+      image: 'https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: true,
       award: 'Top 10% - Build with India Hackathon 2025'
     },
