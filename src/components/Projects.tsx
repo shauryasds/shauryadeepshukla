@@ -12,7 +12,7 @@ const Projects = () => {
       live: 'https://founderai-seven.vercel.app',
       image: 'https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: true,
-      award: 'Top 10% - Build with India Hackathon 2025'
+      
     },
      {
       title: 'HireAI',
