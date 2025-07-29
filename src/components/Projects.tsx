@@ -5,9 +5,19 @@ import { ExternalLink, Github, Play, Award } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: 'FounderAI',
+      description: 'Full-stack GenAI web app that analyzes startup ideas in real time using Google Search, SerpAPI, and Gemini LLMs to check uniqueness, market saturation, and monetization potential.',
+      tech: ['Next.js', 'Docker', 'Gemini API', 'Supabase', 'LangChain'],
+      github: 'https://github.com/shauryasds/HireAi',
+      live: 'http://hire-ai-azure.vercel.app',
+      image: 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=800',
+      featured: true,
+      award: 'Top 10% - Build with India Hackathon 2025'
+    },
+     {
       title: 'HireAI',
       description: 'An immersive AI-powered interview platform that revolutionizes the hiring process with intelligent assessment and real-time feedback.',
-      tech: ['React.js', 'Node.js', 'OpenAI API', 'MongoDB', 'Gemoini API'],
+      tech: ['React.js', 'Node.js', 'OpenAI API', 'MongoDB', 'Gemini API'],
       github: 'https://github.com/shauryasds/HireAi',
       live: 'http://hire-ai-azure.vercel.app',
       image: 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=800',
