@@ -42,18 +42,19 @@ const Hero = () => {
             </span>
           </motion.h1>
 
-    <motion.p
+   <motion.p
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.7 }}
-  className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed"
+  className="text-base md:text-lg text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed"
 >
-  SDE Intern with a knack for clean APIs and slick UIs.
+  SDE Intern — building clean APIs & crisp UIs.
   <br />
-  <span className="text-emerald-400 font-medium">Fuelled by coffee, driven by curiosity</span> ☕
+  <span className="text-emerald-400 font-medium">Fueled by coffee, curious by default</span> ☕
   <br />
-  Founder @ <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a> — .
+  Founder @ <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a>.
 </motion.p>
+
 
 
 
