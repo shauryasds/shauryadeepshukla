@@ -42,16 +42,19 @@ const Hero = () => {
             </span>
           </motion.h1>
 
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7 }}
-            className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed"
-          >
-            Final-year CS student who builds things that actually work.
-            <br />
-            <span className="text-emerald-400 font-medium">Currently turning coffee into MERN stack magic</span> ☕
-          </motion.p>
+       <motion.p
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.7 }}
+  className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed"
+>
+  SDE Intern (a.k.a. professional Googler) — writing scalable APIs, pixel-perfect UIs, and occasionally questioning my life choices at 2 AM.
+  <br />
+  <span className="text-emerald-400 font-medium">Currently turning caffeine into full-stack wizardry</span> ☕
+  <br />
+  Also the brain behind <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a> — where I help businesses go from “we just need a simple site” to “can you also add WhatsApp automation, AI chatbot, and a dashboard?”
+</motion.p>
+
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
