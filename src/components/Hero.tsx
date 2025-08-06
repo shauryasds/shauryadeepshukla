@@ -42,18 +42,19 @@ const Hero = () => {
             </span>
           </motion.h1>
 
-       <motion.p
+      <motion.p
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.7 }}
   className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed"
 >
-  SDE Intern (a.k.a. professional Googler) — writing scalable APIs, pixel-perfect UIs, and occasionally questioning my life choices at 2 AM.
+  SDE Intern — writing APIs, crafting UIs, and occasionally debugging things I didn’t break.
   <br />
-  <span className="text-emerald-400 font-medium">Currently turning caffeine into full-stack wizardry</span> ☕
+  <span className="text-emerald-400 font-medium">Currently turning caffeine into full-stack magic</span> ☕
   <br />
-  Also the brain behind <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a> — where I help businesses go from “we just need a simple site” to “can you also add WhatsApp automation, AI chatbot, and a dashboard?”
+  Founder @ <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a> — helping businesses go live with style and speed.
 </motion.p>
+
 
 
           <motion.div
