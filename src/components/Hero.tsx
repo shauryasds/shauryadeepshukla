@@ -52,7 +52,7 @@ const Hero = () => {
   <br />
   <span className="text-emerald-400 font-medium">Fuelled by coffee, driven by curiosity</span> ☕
   <br />
-  Building at <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a> — where ideas turn into fast, functional websites.
+  Founder @ <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a> — .
 </motion.p>
 
 
