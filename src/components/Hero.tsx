@@ -52,7 +52,7 @@ const Hero = () => {
   <br />
   <span className="text-emerald-400 font-medium">Fueled by coffee, curious by default</span> ☕
   <br />
-  Founder @ <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a>.
+  {/* Founder @ <a href="https://nimankit.in" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">NimankIT</a>. */}
 </motion.p>
 
 
