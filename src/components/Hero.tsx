@@ -48,7 +48,7 @@ const Hero = () => {
   transition={{ delay: 0.7 }}
   className="text-base md:text-lg text-gray-400 mb-10 max-w-2xl mx-auto leading-relaxed"
 >
-  SDE Intern — building clean APIs & crisp UIs.
+  SDE  — building clean APIs & crisp UIs.
   <br />
   <span className="text-emerald-400 font-medium">Fueled by coffee, curious by default</span> ☕
   <br />
