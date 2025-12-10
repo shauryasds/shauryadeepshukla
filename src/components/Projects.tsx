@@ -42,13 +42,7 @@ const Projects = () => {
       live: 'http://task-management-system-frontend-amber.vercel.app',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800'
     },
-    {
-      title: 'Vintage Holistic Center',
-      description: 'A holistic wellness platform (SOLD to client ) offering plans, online consultations, and wellness resources.',
-      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
-      live: 'https://vintageholistic.vercel.app',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800'
-    }
+   
   ];
 
   return (
