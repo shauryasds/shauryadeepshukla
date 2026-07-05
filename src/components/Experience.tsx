@@ -6,83 +6,82 @@ import { CheckCircle } from 'lucide-react';
 const Experience = () => {
 
   const experiences = [
-    {
-      title: 'Software Developer Intern /Instructore Intern',
-      company: 'Beta Test Solutions',
-      location: 'Remote',
-      duration: 'October 2025 – Present',
-      type: 'Internship',
-      description: [
-        "Mentored a paid community of 15,000+ learners in Full-Stack Development, React.js, and Generative AI through live training sessions and project-based learning.",
-"Developed and maintained CoderGyan's in-house LMS, building scalable frontend features, backend APIs, and course management workflows.",
-        "Integrated LLM-powered features and AI-driven automations and modern GenAI tools."
+  {
+    title: "Software Developer Intern / Instructor Intern",
+    company: "Beta Test Solutions",
+    location: "Remote",
+    duration: "October 2025 – Present",
+    type: "Internship",
+    description: [
+      "Mentored a paid community of 15,000+ learners in Full-Stack Development, React.js, and Generative AI through live training sessions and project-based learning.",
+      "Developed and maintained CoderGyan's in-house LMS, building scalable frontend features, backend APIs, and course management workflows.",
+      "Integrated LLM-powered features, AI-driven automations, and modern GenAI tools to enhance platform capabilities."
+    ],
+    tech: ["React.js", "Node.js", "MongoDB", "OpenAI API"],
+    icon: <Briefcase className="text-cyan-400" size={24} />
+  },
 
-      ],
-      tech: ['React.js', 'Node.js', 'OpenAI API', 'MongoDB'],
-      icon: <Briefcase className="text-cyan-400" size={24} />
-    },
-    {
-      title: 'Software Developer Intern',
-      company: 'Manasio Pvt Limited',
-      location: 'Remote',
-      duration: {
-      title: 'Software Developer Intern',
-      company: 'Beta Test Solutions',
-      location: 'Remote',
-      duration: 'July 2025 – Present',
-      type: 'Internship',
-      description: [
-        'Built and integrated an LLM-powered chatbot now handling 500+ user queries weekly.',
-        'Developed dynamic React.js components and Node.js APIs for real-time interaction.',
-        'Improved support efficiency by 35%, reducing manual intervention significantly.'
-      ],
-      tech: ['React.js', 'Node.js', 'OpenAI API', 'MongoDB'],
-      icon: <Briefcase className="text-cyan-400" size={24} />
-    },
-'Feb 2025 – June 2025',
-      type: 'Internship',
-      description: [
-        'Built a Tax Management System used by 200+ clients, reducing manual tax filing time by 40%.',
-        'Designed responsive React.js components and optimized MongoDB queries, reducing API response time by 15%.',
-        'Collaborated in a 5-member Agile team, leading sprint planning and code reviews.'
-      ],
-      tech: ['React.js', 'MongoDB', 'Express.js', 'Tailwind CSS'],
-      icon: <Rocket className="text-purple-400" size={24} />
-    },
-    {
-      title: 'Freelance MERN & Gen AI Trainer',
-      company: 'Webchily',
-      location: 'Remote',
-      duration: 'Apr 2025 – May 2025',
-      type: 'Freelance',
-      description: [
-        'Trained 60+ learners to build real-time chatbots using the MERN stack and OpenAI APIs.',
-        'Led hands-on sessions on Vercel deployment and designing scalable architectures.',
-        'Achieved 98.29% participant satisfaction based on post-training feedback.'
-      ],
-      tech: ['MERN Stack', 'OpenAI API', 'Vercel', 'Postman'],
-      icon: <Target className="text-emerald-400" size={24} />
-    },
-    {
-      title: 'Wordpress Developer Intern',
-      company: 'Mashoorme',
-      location: 'Remote',
-      duration: 'Jul 2023 – Oct 2023',
-      type: 'Internship',
-      description: [
-        'Started with WordPress—clicked some buttons, called it web dev.',
-        'Got tired of dragging and dropping, so I picked up React and actually learned to code (within a month).',
-        'Built a css+js website that was so fast, even the WordPress site owners were impressed.',
-        'Realized I could do more than just themes and plugins, so I moved on to real coding.'
-      ],
-      tech: ['WordPress', 'Html', 'CSS', 'JavaScript'],
-      icon: <Activity className="text-yellow-400" size={24} />
-    }
+  {
+    title: "Software Developer Intern",
+    company: "Beta Test Solutions",
+    location: "Remote",
+    duration: "July 2025 – August 2025",
+    type: "Internship",
+    description: [
+      "Designed and deployed a RAG-powered GenAI assistant leveraging embeddings, vector search, and prompt-chaining.",
+      "Built and optimized LLM inference and retrieval pipelines, improving response quality and reducing latency.",
+      "Developed 15+ reusable React components and robust API endpoints supporting streaming LLM responses, context injection, and hybrid retrieval workflows."
+    ],
+    tech: ["React.js", "Node.js", "MongoDB", "OpenAI API"],
+    icon: <Briefcase className="text-cyan-400" size={24} />
+  },
 
-  ];
+  {
+    title: "Software Developer Intern",
+    company: "Manasio Pvt Ltd",
+    location: "Remote",
+    duration: "Feb 2025 – Jun 2025",
+    type: "Internship",
+    description: [
+      "Built a Tax Management System used by 200+ clients, reducing manual tax filing time by 40%.",
+      "Designed responsive React.js interfaces and optimized MongoDB queries, reducing API response time by 15%.",
+      "Collaborated within a 5-member Agile team, contributing to sprint planning, feature development, and code reviews."
+    ],
+    tech: ["React.js", "MongoDB", "Express.js", "Tailwind CSS"],
+    icon: <Rocket className="text-purple-400" size={24} />
+  },
 
+  {
+    title: "Freelance MERN & GenAI Trainer",
+    company: "Webchily",
+    location: "Remote",
+    duration: "Apr 2025 – May 2025",
+    type: "Freelance",
+    description: [
+      "Trained 60+ learners in building AI-powered applications using the MERN stack and OpenAI APIs.",
+      "Conducted hands-on workshops covering chatbot development, deployment with Vercel, and scalable application architecture.",
+      "Achieved a 98.29% participant satisfaction rate based on post-training feedback."
+    ],
+    tech: ["MERN Stack", "OpenAI API", "Vercel", "Postman"],
+    icon: <Target className="text-emerald-400" size={24} />
+  },
 
-
+  {
+    title: "WordPress Developer Intern",
+    company: "Mashoorme",
+    location: "Remote",
+    duration: "Jul 2023 – Oct 2023",
+    type: "Internship",
+    description: [
+      "Developed and customized WordPress websites, implementing responsive layouts and UI enhancements.",
+      "Built custom HTML, CSS, and JavaScript components to improve website performance and user experience.",
+      "Collaborated with clients to deliver business-focused web solutions while maintaining design consistency.",
+      "This role sparked my transition from WordPress development to modern frontend engineering with React."
+    ],
+    tech: ["WordPress", "HTML", "CSS", "JavaScript"],
+    icon: <Activity className="text-yellow-400" size={24} />
+  }
+];
   const achievements = [
     {
       title: 'Build with India Hackathon 2025',
