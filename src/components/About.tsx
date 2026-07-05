@@ -35,7 +35,7 @@ const About = () => {
               >
                 <p className="text-xl leading-relaxed mb-6">
                   Hi, I'm <span className="text-emerald-400 font-semibold">Shaurya Deep Shukla</span> –
-                  a final-year Computer Science student who believes that good code is like a good joke:
+                  Software Developer who believes that good code is like a good joke:
                   if you have to explain it, it's probably not that good.
                 </p>
 
@@ -67,7 +67,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Calendar className="text-emerald-400 mr-3" size={20} />
-                  <span>Graduating 2026</span>
+                  <span>Graduated 2026</span>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Award className="text-emerald-400 mr-3" size={20} />
