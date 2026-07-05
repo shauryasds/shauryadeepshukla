@@ -8,7 +8,7 @@ const Experience = () => {
   const experiences = [
   {
     title: "Software Developer Intern / Instructor Intern",
-    company: "Beta Test Solutions",
+    company: "Coder's Gyan",
     location: "Remote",
     duration: "October 2025 – Present",
     type: "Internship",
