@@ -7,6 +7,25 @@ const Experience = () => {
 
   const experiences = [
     {
+      title: 'Software Developer Intern /Instructore Intern',
+      company: 'Beta Test Solutions',
+      location: 'Remote',
+      duration: 'October 2025 – Present',
+      type: 'Internship',
+      description: [
+        "Mentored a paid community of 15,000+ learners in Full-Stack Development, React.js, and Generative AI through live training sessions and project-based learning.",
+"Developed and maintained CoderGyan's in-house LMS, building scalable frontend features, backend APIs, and course management workflows.",
+        "Integrated LLM-powered features and AI-driven automations and modern GenAI tools."
+
+      ],
+      tech: ['React.js', 'Node.js', 'OpenAI API', 'MongoDB'],
+      icon: <Briefcase className="text-cyan-400" size={24} />
+    },
+    {
+      title: 'Software Developer Intern',
+      company: 'Manasio Pvt Limited',
+      location: 'Remote',
+      duration: {
       title: 'Software Developer Intern',
       company: 'Beta Test Solutions',
       location: 'Remote',
@@ -20,11 +39,7 @@ const Experience = () => {
       tech: ['React.js', 'Node.js', 'OpenAI API', 'MongoDB'],
       icon: <Briefcase className="text-cyan-400" size={24} />
     },
-    {
-      title: 'Software Developer Intern',
-      company: 'Manasio Pvt Limited',
-      location: 'Remote',
-      duration: 'Feb 2025 – June 2025',
+'Feb 2025 – June 2025',
       type: 'Internship',
       description: [
         'Built a Tax Management System used by 200+ clients, reducing manual tax filing time by 40%.',
@@ -239,7 +254,7 @@ const Experience = () => {
           <div className="bg-gray-950/30 backdrop-blur-sm p-8 rounded-xl border border-gray-800">
             <h4 className="text-xl font-semibold text-white mb-4">Current Status</h4>
             <p className="text-gray-300 text-lg">
-              🎓 <span className="text-emerald-400">Final Year Student</span> at Krishna Institute of Technology
+              🎓 <span className="text-emerald-400">Officially Graduated , Living the dream - CODING </span> 
               <br />
               🚀 <span className="text-emerald-400">Actively seeking</span> full-time opportunities in software development
               <br />
